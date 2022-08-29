@@ -1,0 +1,39 @@
+.header{
+    background-color: #073D81;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.headerContainer{
+    width: 100%;
+    max-width: 1124px;
+    margin: 20px 0px 50px 0px;
+}
+.headerItem{
+    display: flex;
+    gap: 40px;
+}
+
+.headerIcon{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+
+.headerIcon.active{
+    border:1px solid white;
+    padding:10px;
+    border-radius:20px;
+}
+
+.headerTitle{
+    margin-top:70px;
+    font-weight: bold;
+    font-size: 50px;
+    color:white;
+}
+
+.headerDesc{
+    font-size:20px;
+}
