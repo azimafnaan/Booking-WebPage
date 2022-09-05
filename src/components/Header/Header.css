@@ -27,6 +27,7 @@
     gap:10px;
 }
 
+
 .headerIcon.active{
     border:1px solid white;
     padding:10px;
@@ -96,9 +97,11 @@
 .date{
     position:absolute;
     top:50px;
+    z-index: 2;
 }
 
 .options{
+    z-index: 2;
     position:absolute;
     top:55px;
     background-color:white;
